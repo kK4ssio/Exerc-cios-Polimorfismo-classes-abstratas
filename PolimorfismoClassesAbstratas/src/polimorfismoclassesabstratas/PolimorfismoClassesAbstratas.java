@@ -29,6 +29,14 @@ cachorro1.Mover();
 System.out.println("===============================================================");
 //Exercicio 3
     System.out.println("Exercicio 3");
+Ex3ContaBancaria conta1 = new Ex3ContaCorrente();
+Ex3ContaBancaria conta2 = new Ex3ContaPoupanca();
+
+conta1.Sacar();
+conta1.Depositar();
+
+conta2.Sacar();
+conta2.Depositar();
     
 System.out.println("===============================================================");
 //Exercicio 4

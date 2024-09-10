@@ -50,6 +50,12 @@ boleto1.CalculaValor();
 System.out.println("===============================================================");
 //Exercicio 5
     System.out.println("Exercicio 5");
+Ex5Funcionario gerente1 = new Ex5Gerente();
+Ex5Funcionario programador1 = new Ex5Programador();
+
+gerente1.CalcSalario();
+programador1.CalcSalario();
+
     }
 
 }

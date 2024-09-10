@@ -7,6 +7,6 @@ public class Ex4PagamentoBoleto extends Ex4Pagamento {
     
     @Override
     public void CalculaValor(){
-        System.out.println("Valor do Boleto Calculado");
+        System.out.println("Valor do Boleto Calculado! ");
     } 
 }

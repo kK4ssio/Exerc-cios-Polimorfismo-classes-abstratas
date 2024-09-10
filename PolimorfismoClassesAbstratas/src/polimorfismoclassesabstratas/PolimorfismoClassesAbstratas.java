@@ -41,6 +41,11 @@ conta2.Depositar();
 System.out.println("===============================================================");
 //Exercicio 4
     System.out.println("Exercicio 4");
+Ex4Pagamento cartao1 = new Ex4PagCartaoCred();
+Ex4Pagamento boleto1 = new Ex4PagamentoBoleto();
+
+cartao1.CalculaValor();
+boleto1.CalculaValor();
 
 System.out.println("===============================================================");
 //Exercicio 5
